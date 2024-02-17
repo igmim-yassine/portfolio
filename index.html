@@ -42,7 +42,7 @@
 			<div id="header-wrap" class="border-0">
 				<div class="container">
 					<div class="header-row justify-content-lg-between px-4 px-xl-0">
-s
+						s
 						<!-- Logo
 						============================================= -->
 						<div class="order-1 order-lg-1 text-lg-center p-lg-4 py-3 mt-lg-5">
@@ -111,7 +111,7 @@ s
 										<div><i class="bi-person-gear"></i> Experience</div>
 									</a></li>
 								<li class="menu-item"><a class="menu-link" href="#" data-href="#section-journal">
-										<div><i class="bi-journal-text"></i> Research</div>
+										<div><i class="bi-journal-text"></i> Projects</div>
 									</a></li>
 								<!-- <li class="menu-item"><a class="menu-link" href="#" data-href="#section-research">
 										<div><i class="bi-binoculars"></i> Research</div>
@@ -223,7 +223,7 @@ s
 												<i class="fa-solid fa-check"></i>
 											</div>
 											<div class="fbox-content">
-												<h3>Master 2 Data Science</h3>
+												<h3>MSc. Data Science</h3>
 												<p class="mt-0">l'X Polytechnique 2023-2024</p>
 											</div>
 										</div>
@@ -233,7 +233,7 @@ s
 												<i class="fa-solid fa-check"></i>
 											</div>
 											<div class="fbox-content">
-												<h3>Master Data Science</h3>
+												<h3>MEng. Data Science</h3>
 												<p class="mt-0">EMINES-UM6P 2019-2022</p>
 											</div>
 										</div>
@@ -243,7 +243,7 @@ s
 												<i class="fa-solid fa-check"></i>
 											</div>
 											<div class="fbox-content">
-												<h3>Bachelor Maths/Physique</h3>
+												<h3>Advanced Maths/Physics</h3>
 												<p class="mt-0">CPGE 2017-2019</p>
 											</div>
 										</div>
@@ -406,28 +406,42 @@ s
 							</div>
 							<div class="col-9">
 								<ul>
-									<li>Building a life science knowledge graph using real life investment and
-										innovation data sources</li>
-									<li>Implementing a Knowledge Graph Embeddings at scale for large graphs (800 million
-										nodes, 2
-										billionedges)</li>
-									<li>Building a search engine for life science investment platform using cognitive
-										search &
-										graphcentrality</li>
-									<li>Enriching a knowledge graph by building an Information extraction pipeline using
-										DBPedia
-										Spotlight</li>
-									<li>Company similarity using companies’ metadata and graph centrality approaches
+									<li>Developed a knowledge graph embedding model for company similarity link
+										prediction (the best model’s performance
+										embed graphs of 3M vertices and 11M edges with only CPU settings with less
+										resources, and is currently being
+										developed by ALPHA10X’s team for better results at scale)</li>
+									<li>Enriching mid-stage companies’ scientific concepts through patents adding
+										context to more than 97% of mid-stage
+										organizations.</li>
+									<li>Developed a graph-based entity ranking microservice at scale for ranking
+										different types of entities in ALPHA10X’s
+										search engine using ALPHA10X graph centrality.</li>
+									<li>Developed multiple microservices of information extraction pipeline for
+										processing and analyzing textual LinkedIn
+										data of more than 50M organizations to enrich ALPHA10X’s knowledge graph with
+										up-to-date scientific concepts
+										using DBpedia and other internal taxonomies.</li>
+									<li>Developed surveying tools for technology maturity analysis using large-scale
+										data from ALPHA10X knowledge
+										graph to measure the maturity of a given technology in a specific domain
+										application. Currently used internally to
+										support ALPHA10X business analysts’ works.</li>
+									<li>Created an internal search engine using Elasticsearch indexing, which uses
+										filters and our structuration of the data,
+										for easier navigation in ALPHA10X’s large knowledge graph.</li>
+									<li>Identified most prominent factors in UK startup’s data operating in battery
+										lithium recycling to help Saudi Invest-
+										ment Recycling Company (SIRC) make better decisions for their M&A transactions.
 									</li>
-									<li>Applying Entity Linking to 700 million LinkedIn job posts to extract companies’s
-										information using
-										IENLP</li>
-									<li>Building ETL pipelines using Pyspark (SparkSQL, SparkML) with Azure Databricks
-										Environment</li>
-									<li>Contributing in building an NLP library to Process, Classify, Extract, Model,
-										Visualize
-										unstructureddata</li>
-									<li>Experiencing with agile process for project management using Azure Devops</li>
+									<li>Designed and implemented a search API fetching the most prominent factors from
+										our organization’s data. The
+										API is powering the ALPHA10X application pointing to more than 100M documents
+										for real-time analysis.</li>
+									<li>Implemented Apache Spark to read, process, and store data coming from the data
+										provider, for better scalability,
+										guaranteed reliability, and fast performance using Azure Databricks
+										microservices.</li>
 								</ul>
 
 							</div>
@@ -438,11 +452,12 @@ s
 							</div>
 							<div class="col-9">
 								<ul>
-									<li>State-of-the-art of deep learning speech recognition systems of MSA (Modern
-										Standard Arabic).</li>
-									<li>Building a speech corpus for Moroccan Dialect</li>
-									<li>Building an ASR system for Moroccan Dialect based on XLSR-Wav2vec 2.0 model
-										(developed by Facebook AI & Google AI, 2020)</li>
+									<li>Building a speech-to-text model for Moroccan dialect using automatic speech
+										recognition Wav2vec2.0 model that
+										improved the WER (word error rate) by 77% compared to training from scratch with
+										only 10 mins of dialect audios
+										with averagely 2s length. MSDA then proposed this approach as PhD thesis for
+										future exploration.</li>
 								</ul>
 
 							</div>
@@ -559,106 +574,501 @@ s
 						</div>
 					</div> -->
 
-				</div>
+					</div>
 
-				<div class="line"></div>
+					<div class="line"></div>
 
-				<!-- Journal
+					<!-- Journal
 				============================================= -->
-				<div id="section-journal" class="py-lg-5 page-section">
+					<div id="section-journal" class="py-lg-5 page-section">
 
-					<div class="container mw-md">
-						<!-- <h2 class="text-center display-3 fw-semibold ls-2 mb-5"><i 
+						<div class="container mw-md">
+							<!-- <h2 class="text-center display-3 fw-semibold ls-2 mb-5"><i 
 							class="bi-journal-text color"></i>Research</h2> -->
-						<h2 class="text-center display-3 fw-semibold ls-2 mb-5 mb-lg-6"><i
-							class="bi-binoculars color"></i> Research</h2>
-						<div class="row gy-4">
-							<div class="col-12">
-								<div class="card bg-contrast-100 rounded-1 border-0">
-									<div class="card-body p-4">
-										<div class="toggle mb-0">
-											<div class="toggle-header d-block">
-												<div class="d-flex w-100">
-													<div class="toggle-title fs-4 mb-2">
-														Molecule Retrieval with Natural Language Queries
+							<h2 class="text-center display-3 fw-semibold ls-2 mb-5 mb-lg-6"><i
+									class="bi-binoculars color"></i> Projects</h2>
+							<div class="row gy-4">
+
+								<div class="col-12">
+									<div class="card bg-contrast-100 rounded-1 border-0">
+										<div class="card-body p-4">
+											<div class="toggle mb-0">
+												<div class="toggle-header d-block">
+													<div class="d-flex w-100">
+														<div class="toggle-title fs-4 mb-2">
+															Abu Dhabi Investment Authority (ADIA) – Study the US-global
+															supply chain of companies
+														</div>
+													</div>
+													<div class="small fw-normal mb-2 op-06">
+														Yassine BENIGUEMIM</div>
+													<!-- <div class="badge bg-danger fs-6 fw-normal mt-2 me-2">Closed</div>
+													<small class="fw-normal"><strong> abcdefg:</strong> 123456</small> -->
+													<div
+														class="position-absolute bottom-0 end-0 d-flex align-items-center">
+														<a href="#"
+															class="bi-info-circle fs-5 text-contrast-900 h-text-color"></a>
+														<a href="#"
+															class="bi-link fs-5 text-contrast-900 h-text-color ms-3"
+															style="transform: rotate(45deg);"></a>
 													</div>
 												</div>
-												<div class="small fw-normal mb-2 op-06">BENIGUEMIM Yassine</div>
-												<!-- <div class="badge bg-warning fs-6 fw-normal mt-2 me-2">Preprint</div>
-												<small class="fw-normal"><strong> abcdefg:</strong> 123456</small> -->
-												<small class="paper"><a href="/research_paper.pdf" target="_blank">Open Resume</a></small>
-												<div class="position-absolute bottom-0 end-0 d-flex align-items-center">
-													<a href="#"
-														class="bi-info-circle fs-5 text-contrast-900 h-text-color"></a>
-													<a href="#" class="bi-link fs-5 text-contrast-900 h-text-color ms-3"
-														style="transform: rotate(45deg);"></a>
-												</div>
-											</div>
-											<div class="toggle-content">
-												<div class="mt-4 border-top pt-4">
-													<h4 class="mb-3">Abstract</h4>
-													This project explores the intersection of Natural Language Processing (NLP) and molecular retrieval, employing machine learning techniques to extract molecules from
-													textual queries. The challenge involves discerning the correct molecule from a list of graphs without accompanying text or references. This demands the fusion of structured knowledge from text and chemical properties within
-													molecular graphs. The main approach involves co-training
-													a text encoder and a molecule encoder using contrastive
-													learning with a sentence transformer as the text encoder
-													and Dynamic Graph Attention Models as the base of the
-													graph encoder along with node embedding from Mol2vec
-													model. This entails simultaneously training two specialized
-													encoders to handle textual data and molecular structures.
-													Through contrastive learning, the model learns to map similar text-molecule pairs closer together and dissimilar pairs
-													apart. Our presented approach achieves a notable label
-													ranking average precision score of 0.8064% for the test
-													set in the public leaderboard, which surpasses the baseline
-													model of 0.3480%. This highlights the efficacy of our model
-													in seamlessly integrating textual and structural information,
-													showcasing the potential of contrastive learning in addressing interdisciplinary challenges at the convergence of NLP
-													and molecular retrieval.
+												<div class="toggle-content">
+													<div class="mt-4 border-top pt-4">
+														<h4 class="mb-3">Abstract</h4>
+														Designed a knowledge graph using state-of-the-art NLP techniques
+														to analyze 17 years of USA port import/export
+														data from Bills-of-Lading (BoL), aiding in understanding its
+														supply chain dynamics.
+													</div>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-							</div>
 
-							<!-- <div class="col-12">
-								<div class="card bg-contrast-100 rounded-1 border-0">
-									<div class="card-body p-4">
-										<div class="toggle mb-0">
-											<div class="toggle-header d-block">
-												<div class="d-flex w-100">
-													<div class="toggle-title fs-4 mb-2">
-														Litora eaque taciti explicabo libero omnis
+
+
+								<div class="col-12">
+									<div class="card bg-contrast-100 rounded-1 border-0">
+										<div class="card-body p-4">
+											<div class="toggle mb-0">
+												<div class="toggle-header d-block">
+													<div class="d-flex w-100">
+														<div class="toggle-title fs-4 mb-2">
+															X-MVA – Molecule Retrieval with Natural Language Queries
+														</div>
+													</div>
+													<div class="small fw-normal mb-2 op-06">Yassine BENIGUEMIM</div>
+													<!-- <div class="badge bg-warning fs-6 fw-normal mt-2 me-2">Preprint</div>
+													<small class="fw-normal"><strong> abcdefg:</strong> 123456</small> -->
+													<!-- <small class="paper"><a href="/research_paper.pdf"
+															target="_blank">Open Resume</a></small> -->
+													<div
+														class="position-absolute bottom-0 end-0 d-flex align-items-center">
+														<a href="#"
+															class="bi-info-circle fs-5 text-contrast-900 h-text-color"></a>
+														<a href="#"
+															class="bi-link fs-5 text-contrast-900 h-text-color ms-3"
+															style="transform: rotate(45deg);"></a>
 													</div>
 												</div>
-												<div class="small fw-normal mb-2 op-06">Borjan Geshkovski, Cyril
-													Letrouit, Yury Polyanskiy, and Philippe Rigollet (2023)</div>
-												<div class="badge bg-danger fs-6 fw-normal mt-2 me-2">Closed</div>
-												<small class="fw-normal"><strong> abcdefg:</strong> 123456</small>
-												<div class="position-absolute bottom-0 end-0 d-flex align-items-center">
-													<a href="#"
-														class="bi-info-circle fs-5 text-contrast-900 h-text-color"></a>
-													<a href="#" class="bi-link fs-5 text-contrast-900 h-text-color ms-3"
-														style="transform: rotate(45deg);"></a>
-												</div>
-											</div>
-											<div class="toggle-content">
-												<div class="mt-4 border-top pt-4">
-													<h4 class="mb-3">Abstract</h4>
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda,
-													dolorum, vero ipsum molestiae minima odio quo voluptate illum
-													excepturi quam cum voluptates doloribus quae nisi tempore
-													necessitatibus dolores ducimus enim libero eaque explicabo suscipit
-													animi at quaerat aliquid ex expedita perspiciatis? Saepe, aperiam,
-													nam unde quas beatae.
+												<div class="toggle-content">
+													<div class="mt-4 border-top pt-4">
+														<h4 class="mb-3">Abstract</h4>
+														This project explores the intersection of Natural Language
+														Processing (NLP) and molecular retrieval, employing machine
+														learning techniques to extract molecules from
+														textual queries. The challenge involves discerning the correct
+														molecule from a list of graphs without accompanying text or
+														references. This demands the fusion of structured knowledge from
+														text and chemical properties within
+														molecular graphs. The main approach involves co-training
+														a text encoder and a molecule encoder using contrastive
+														learning with a sentence transformer as the text encoder
+														and Dynamic Graph Attention Models as the base of the
+														graph encoder along with node embedding from Mol2vec
+														model. This entails simultaneously training two specialized
+														encoders to handle textual data and molecular structures.
+														Through contrastive learning, the model learns to map similar
+														text-molecule pairs closer together and dissimilar pairs
+														apart. Our presented approach achieves a notable label
+														ranking average precision score of 0.8064% for the test
+														set in the public leaderboard, which surpasses the baseline
+														model of 0.3480%. This highlights the efficacy of our model
+														in seamlessly integrating textual and structural information,
+														showcasing the potential of contrastive learning in addressing
+														interdisciplinary challenges at the convergence of NLP
+														and molecular retrieval.
+													</div>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-							</div> -->
 
-							<!-- <div class="col-12">
+
+
+								<div class="col-12">
+									<div class="card bg-contrast-100 rounded-1 border-0">
+										<div class="card-body p-4">
+											<div class="toggle mb-0">
+												<div class="toggle-header d-block">
+													<div class="d-flex w-100">
+														<div class="toggle-title fs-4 mb-2">
+															Morocco AI – ShifaChat | HealthCare ChatBot for First Aids
+															Assistant
+														</div>
+													</div>
+													<div class="small fw-normal mb-2 op-06">
+														Ahmad IDRISSI-YAGHIR, Yassine BENIGUEMIM</div>
+													<!-- <div class="badge bg-danger fs-6 fw-normal mt-2 me-2">Closed</div>
+													<small class="fw-normal"><strong> abcdefg:</strong> 123456</small> -->
+													<div
+														class="position-absolute bottom-0 end-0 d-flex align-items-center">
+														<a href="#"
+															class="bi-info-circle fs-5 text-contrast-900 h-text-color"></a>
+														<a href="#"
+															class="bi-link fs-5 text-contrast-900 h-text-color ms-3"
+															style="transform: rotate(45deg);"></a>
+													</div>
+												</div>
+												<div class="toggle-content">
+													<div class="mt-4 border-top pt-4">
+														<h4 class="mb-3">Abstract</h4>
+														Implemented a chatbot with multimodal and multilingual
+														capabilities, enabling input of text, audio, and images
+														through automatic speech recognition, text translation, and
+														vision language model; also integrated retrieval aug-
+														mented generation on a doctor-vetted knowledge base of first
+														aid.
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-12">
+									<div class="card bg-contrast-100 rounded-1 border-0">
+										<div class="card-body p-4">
+											<div class="toggle mb-0">
+												<div class="toggle-header d-block">
+													<div class="d-flex w-100">
+														<div class="toggle-title fs-4 mb-2">
+															Hackathon – Number of Flight Passengers Prediction
+														</div>
+													</div>
+													<div class="small fw-normal mb-2 op-06">
+														Yassine BENIGUEMIM, Mohamed Taha EL BOUHALI</div>
+													<!-- <div class="badge bg-danger fs-6 fw-normal mt-2 me-2">Closed</div>
+													<small class="fw-normal"><strong> abcdefg:</strong> 123456</small> -->
+													<div
+														class="position-absolute bottom-0 end-0 d-flex align-items-center">
+														<a href="#"
+															class="bi-info-circle fs-5 text-contrast-900 h-text-color"></a>
+														<a href="#"
+															class="bi-link fs-5 text-contrast-900 h-text-color ms-3"
+															style="transform: rotate(45deg);"></a>
+													</div>
+												</div>
+												<div class="toggle-content">
+													<div class="mt-4 border-top pt-4">
+														<h4 class="mb-3">Abstract</h4>
+														The goal of the challenge is to predict the number of passengers
+														per plane on some flights in the US. The data is provided to us
+														by a single company. This is a supervised regression problem. -
+														Project with Outcoder & Ecole Polytechnique Paris
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-12">
+									<div class="card bg-contrast-100 rounded-1 border-0">
+										<div class="card-body p-4">
+											<div class="toggle mb-0">
+												<div class="toggle-header d-block">
+													<div class="d-flex w-100">
+														<div class="toggle-title fs-4 mb-2">
+															Hackathon – Generative Modelling GenHack Data Science Challenge
+														</div>
+													</div>
+													<div class="small fw-normal mb-2 op-06">
+														Yassine BENIGUEMIM, Mohamed Taha EL BOUHALI, Yassine DOUFANI
+													</div>
+													<!-- <div class="badge bg-danger fs-6 fw-normal mt-2 me-2">Closed</div>
+													<small class="fw-normal"><strong> abcdefg:</strong> 123456</small> -->
+													<div
+														class="position-absolute bottom-0 end-0 d-flex align-items-center">
+														<a href="#"
+															class="bi-info-circle fs-5 text-contrast-900 h-text-color"></a>
+														<a href="#"
+															class="bi-link fs-5 text-contrast-900 h-text-color ms-3"
+															style="transform: rotate(45deg);"></a>
+													</div>
+												</div>
+												<div class="toggle-content">
+													<div class="mt-4 border-top pt-4">
+														<h4 class="mb-3">Abstract</h4>
+														Development of a generative model that simulates synthetic stock
+														market indices (unsupervised learning problem) - Project with
+														BNP Paribas & Ecole Polytechnique Paris
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-12">
+									<div class="card bg-contrast-100 rounded-1 border-0">
+										<div class="card-body p-4">
+											<div class="toggle mb-0">
+												<div class="toggle-header d-block">
+													<div class="d-flex w-100">
+														<div class="toggle-title fs-4 mb-2">
+															MSDA-UM6P – Moroccan Dialect Speech-to-text transcription
+														</div>
+													</div>
+													<div class="small fw-normal mb-2 op-06">
+														Yassine BENIGUEMIM, Hatim SAADI
+													</div>
+													<!-- <div class="badge bg-danger fs-6 fw-normal mt-2 me-2">Closed</div>
+													<small class="fw-normal"><strong> abcdefg:</strong> 123456</small> -->
+													<div
+														class="position-absolute bottom-0 end-0 d-flex align-items-center">
+														<a href="#"
+															class="bi-info-circle fs-5 text-contrast-900 h-text-color"></a>
+														<a href="#"
+															class="bi-link fs-5 text-contrast-900 h-text-color ms-3"
+															style="transform: rotate(45deg);"></a>
+													</div>
+												</div>
+												<div class="toggle-content">
+													<div class="mt-4 border-top pt-4">
+														<h4 class="mb-3">Abstract</h4>
+														Building a speech-to-text model for Moroccan dialect using
+														automatic speech recognition Wav2vec2.0 model that improved the
+														WER (word error rate) by 77% compared to training from scratch
+														with only 10 mins of dialect audios with averagely 2s length.
+														MSDA then proposed this approach as PhD thesis for future
+														exploration.
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-12">
+									<div class="card bg-contrast-100 rounded-1 border-0">
+										<div class="card-body p-4">
+											<div class="toggle mb-0">
+												<div class="toggle-header d-block">
+													<div class="d-flex w-100">
+														<div class="toggle-title fs-4 mb-2">
+															Interactive dashboard for Airbnb
+														</div>
+													</div>
+													<div class="small fw-normal mb-2 op-06">
+														Yassine BENIGUEMIM, Mohamed Taha EL BOUHALI, Anas MOUJAHID
+													</div>
+													<!-- <div class="badge bg-danger fs-6 fw-normal mt-2 me-2">Closed</div>
+													<small class="fw-normal"><strong> abcdefg:</strong> 123456</small> -->
+													<div
+														class="position-absolute bottom-0 end-0 d-flex align-items-center">
+														<a href="#"
+															class="bi-info-circle fs-5 text-contrast-900 h-text-color"></a>
+														<a href="#"
+															class="bi-link fs-5 text-contrast-900 h-text-color ms-3"
+															style="transform: rotate(45deg);"></a>
+													</div>
+												</div>
+												<div class="toggle-content">
+													<div class="mt-4 border-top pt-4">
+														<h4 class="mb-3">Abstract</h4>
+														Our team collaborated on a VBA project focused on the
+														implementation of an interactive Dashboard for Airbnb. This
+														initiative aimed to assess various hosts and locales within a
+														specific city, with the objective of predicting optimal
+														locations, pricing strategies, and garnering favorable reviews.
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-12">
+									<div class="card bg-contrast-100 rounded-1 border-0">
+										<div class="card-body p-4">
+											<div class="toggle mb-0">
+												<div class="toggle-header d-block">
+													<div class="d-flex w-100">
+														<div class="toggle-title fs-4 mb-2">
+															Electryo Solar Car for « Moroccan Solar Race Challenge »
+														</div>
+													</div>
+													<div class="small fw-normal mb-2 op-06">
+														Yassine BENIGUEMIM, Mohamed Taha EL BOUHALI, Anas MOUJAHID,
+														Douaa EL KHAER, Nedson SIMO MABOU
+													</div>
+													<!-- <div class="badge bg-danger fs-6 fw-normal mt-2 me-2">Closed</div>
+													<small class="fw-normal"><strong> abcdefg:</strong> 123456</small> -->
+													<div
+														class="position-absolute bottom-0 end-0 d-flex align-items-center">
+														<a href="#"
+															class="bi-info-circle fs-5 text-contrast-900 h-text-color"></a>
+														<a href="#"
+															class="bi-link fs-5 text-contrast-900 h-text-color ms-3"
+															style="transform: rotate(45deg);"></a>
+													</div>
+												</div>
+												<div class="toggle-content">
+													<div class="mt-4 border-top pt-4">
+														<h4 class="mb-3">Abstract</h4>
+														The design and construction of an innovative solar car and
+														autonomous in the source of energy is none other than the sun;
+														an optimized solution, light and robust at the same time,
+														carefully designed to meet the energy, ergonomic and safety
+														standards set by Iresen. This solar car is dedicated to
+														participate in the "Moroccan Solar Race Challenge", the first
+														solar car race organized in Morocco, intended for Moroccan and
+														foreign students from higher education institutions.
+
+														<h2>Special Features of Electryo Solar Car:</h2>
+														<ul>
+															<li>Rapid mobility and a source of renewable energy: the
+																sun.</li>
+															<li>A choice of strategic material: light and economical.
+															</li>
+															<li>Smart tracking of car metrics while racing.</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+
+								<div class="col-12">
+									<div class="card bg-contrast-100 rounded-1 border-0">
+										<div class="card-body p-4">
+											<div class="toggle mb-0">
+												<div class="toggle-header d-block">
+													<div class="d-flex w-100">
+														<div class="toggle-title fs-4 mb-2">
+															OCP – Rock quality prediction model
+														</div>
+													</div>
+													<div class="small fw-normal mb-2 op-06">
+														Yassine BENIGUEMIM, Nedson SIMO MABOU
+													</div>
+													<!-- <div class="badge bg-danger fs-6 fw-normal mt-2 me-2">Closed</div>
+													<small class="fw-normal"><strong> abcdefg:</strong> 123456</small> -->
+													<div
+														class="position-absolute bottom-0 end-0 d-flex align-items-center">
+														<a href="#"
+															class="bi-info-circle fs-5 text-contrast-900 h-text-color"></a>
+														<a href="#"
+															class="bi-link fs-5 text-contrast-900 h-text-color ms-3"
+															style="transform: rotate(45deg);"></a>
+													</div>
+												</div>
+												<div class="toggle-content">
+													<div class="mt-4 border-top pt-4">
+														<h4 class="mb-3">Abstract</h4>
+														OCP's project as an intraclass Kaggle competition about rock
+														quality prediction.
+														Rank PL: 23/127 (Private Leaderboard)
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-12">
+									<div class="card bg-contrast-100 rounded-1 border-0">
+										<div class="card-body p-4">
+											<div class="toggle mb-0">
+												<div class="toggle-header d-block">
+													<div class="d-flex w-100">
+														<div class="toggle-title fs-4 mb-2">
+															Development of a telemedicine platform
+														</div>
+													</div>
+													<div class="small fw-normal mb-2 op-06">
+														Yassine BENIGUEMIM, Abdelmonim BAJDIR, Wissal BERRAMOU
+													</div>
+													<!-- <div class="badge bg-danger fs-6 fw-normal mt-2 me-2">Closed</div>
+													<small class="fw-normal"><strong> abcdefg:</strong> 123456</small> -->
+													<div
+														class="position-absolute bottom-0 end-0 d-flex align-items-center">
+														<a href="#"
+															class="bi-info-circle fs-5 text-contrast-900 h-text-color"></a>
+														<a href="#"
+															class="bi-link fs-5 text-contrast-900 h-text-color ms-3"
+															style="transform: rotate(45deg);"></a>
+													</div>
+												</div>
+												<div class="toggle-content">
+													<div class="mt-4 border-top pt-4">
+														<h4 class="mb-3">Abstract</h4>
+														A tripartite team developed a multiplatform application aimed at
+														revolutionizing doctor-patient services in Morocco. Initiated at
+														the behest of a medical practitioner seeking a telemedicine
+														solution, the platform facilitates remote consultations through
+														audio-visual communication. It streamlines doctor discovery,
+														enhances appointment scheduling for patients, and empowers
+														doctors with efficient appointment management tools.
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-12">
+									<div class="card bg-contrast-100 rounded-1 border-0">
+										<div class="card-body p-4">
+											<div class="toggle mb-0">
+												<div class="toggle-header d-block">
+													<div class="d-flex w-100">
+														<div class="toggle-title fs-4 mb-2">
+															TIPE – Handwriting recognition using Deep Learning
+														</div>
+													</div>
+													<div class="small fw-normal mb-2 op-06">
+														Yassine BENIGUEMIM
+													</div>
+													<!-- <div class="badge bg-danger fs-6 fw-normal mt-2 me-2">Closed</div>
+													<small class="fw-normal"><strong> abcdefg:</strong> 123456</small> -->
+													<div
+														class="position-absolute bottom-0 end-0 d-flex align-items-center">
+														<a href="#"
+															class="bi-info-circle fs-5 text-contrast-900 h-text-color"></a>
+														<a href="#"
+															class="bi-link fs-5 text-contrast-900 h-text-color ms-3"
+															style="transform: rotate(45deg);"></a>
+													</div>
+												</div>
+												<div class="toggle-content">
+													<div class="mt-4 border-top pt-4">
+														<h4 class="mb-3">Abstract</h4>
+														The purpose of my simple project is transforming a number
+														represented in its spacial form of graphical marks into its
+														symbolic representation. Thus, I used deep learning especially
+														neural network as one of the tools whereof we can reach that
+														objective. The automatic recognition of handwritten number can
+														be extremely useful where it is necessary to analyze handwritten
+														data, such as recognition of addresses and postcodes on
+														envelopes. Therefore, in order to minimize the time in which an
+														envelope arrives to its own destination, I realized a program
+														with Python so as to train the neural network with
+														MNIST-Database (or use another database, it depends on the goal
+														targeted by the users) and try to improve its efficiency as much
+														as possible.
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- <div class="col-12">
 								<div class="card bg-contrast-100 rounded-1 border-0">
 									<div class="card-body p-4">
 										<div class="toggle mb-0">
@@ -734,13 +1144,13 @@ s
 						</div>
 					</div> -->
 
-				</div> 
+							</div>
 
-				<div class="line"></div>
+							<div class="line"></div>
 
-				<!-- Research
+							<!-- Research
 				============================================= -->
-				<!-- <div id="section-research" class="py-lg-5 page-section">
+							<!-- <div id="section-research" class="py-lg-5 page-section">
 
 					<div class="container mw-md">
 
@@ -785,63 +1195,86 @@ s
 
 				<div class="line"></div> -->
 
-				<!-- Blog
+							<!-- Blog
 				============================================= -->
-				<div id="section-blog" class="py-lg-5 page-section">
+							<div id="section-blog" class="py-lg-5 page-section">
 
-					<div class="container mw-md">
+								<div class="container mw-md">
 
-						<h2 class="text-center display-3 fw-semibold ls-2 mb-5 mb-lg-6"><i class="bi-pencil color"></i>
-							Blogs</h2>
+									<h2 class="text-center display-3 fw-semibold ls-2 mb-5 mb-lg-6"><i
+											class="bi-pencil color"></i>
+										Blogs</h2>
 
-						<div class="row g-5">
-							<div class="col-md-6">
-								<div class="posts-md">
-									<div class="entry">
-										<div class="entry-image">
-											<a href="#"><img class="rounded-6" src="blog1.png"
-													alt="Image 3"></a>
-										</div>
-										<div class="entry-title mt-4">
-											<h3 class="mb-2 fs-5 fw-normal"><a href="#">Supporting search engines with knowledge and context — Part 1: Knowledge Graphs</a></h3>
-										</div>
-										<div class="entry-meta op-07">
-											<ul>
-												<li><a href="#">Yassine BENIGUEMIM</a></li>
-												<li><a href="#">Nov 10, 2022</a></li>
-											</ul>
-										</div>
-										<div class="entry-content">
-											<p class="mb-0">How many golden ball Ronaldo has? how can a search engine knows which Ronaldo we are talking about?</p>
-										</div>
-									</div>
-								</div>
-							</div>
+									<div class="row g-5">
 
-							<div class="col-md-6">
-								<div class="posts-md">
-									<div class="entry">
-										<div class="entry-image">
-											<a href="#"><img class="rounded-6" src="blog2.png"
-													alt="Image 3"></a>
+										<div class="col-md-6">
+											<div class="posts-md">
+												<div class="entry">
+													<div class="entry-image">
+														<a
+															href="https://medium.com/@yassinebeniguemim/support-search-engines-with-knowledge-and-context-part-1-a333d39fd8fd">
+															<img class="rounded-6" src="blog1.png" alt="Image 3">
+														</a>
+													</div>
+													<div class="entry-title mt-4">
+														<h3 class="mb-2 fs-5 fw-normal">
+															<a
+																href="https://medium.com/@yassinebeniguemim/support-search-engines-with-knowledge-and-context-part-1-a333d39fd8fd">
+																Supporting search engines with knowledge and context —
+																Part 1: Knowledge Graphs
+															</a>
+														</h3>
+													</div>
+													<div class="entry-meta op-07">
+														<ul>
+															<li><a href="#">Yassine BENIGUEMIM</a></li>
+															<li><a href="#">Nov 10, 2022</a></li>
+														</ul>
+													</div>
+													<div class="entry-content">
+														<p class="mb-0">How many golden ball Ronaldo has? how can a
+															search engine knows which Ronaldo we are talking about?</p>
+													</div>
+												</div>
+											</div>
 										</div>
-										<div class="entry-title mt-4">
-											<h3 class="mb-2 fs-5 fw-normal"><a href="#">Supporting search engines with knowledge and context — Part 2: Automatically generating textual descriptions</a></h3>
-										</div>
-										<div class="entry-meta op-07">
-											<ul>
-												<li><a href="#">Yassine BENIGUEMIM</a></li>
-												<li><a href="#">Nov 10, 2022</a></li>
-											</ul>
-										</div>
-										<div class="entry-content">
-											<p class="mb-0">How search engine answer your question even there is no single document answering directly your question?.</p>
-										</div>
-									</div>
-								</div>
-							</div>
 
-							<!-- <div class="col-md-6">
+
+										<div class="col-md-6">
+											<div class="posts-md">
+												<div class="entry">
+													<div class="entry-image">
+														<a
+															href="https://medium.com/@yassinebeniguemim/supporting-search-engines-with-knowledge-and-context-part-2-automatically-generating-textual-dd3c97fc1ba9">
+															<img class="rounded-6" src="blog2.png" alt="Image 3">
+														</a>
+													</div>
+													<div class="entry-title mt-4">
+														<h3 class="mb-2 fs-5 fw-normal">
+															<a
+																href="https://medium.com/@yassinebeniguemim/supporting-search-engines-with-knowledge-and-context-part-2-automatically-generating-textual-dd3c97fc1ba9">
+																Supporting search engines with knowledge and context —
+																Part 2: Automatically generating textual descriptions
+															</a>
+														</h3>
+													</div>
+													<div class="entry-meta op-07">
+														<ul>
+															<li><a href="#">Yassine BENIGUEMIM</a></li>
+															<li><a href="#">Nov 10, 2022</a></li>
+														</ul>
+													</div>
+													<div class="entry-content">
+														<p class="mb-0">How search engine answer your question even
+															there is no single document answering directly your
+															question?.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+										<!-- <div class="col-md-6">
 								<div class="posts-md">
 									<div class="entry">
 										<div class="entry-image">
@@ -890,126 +1323,135 @@ s
 									</div>
 								</div>
 							</div> -->
-						</div>
+									</div>
 
-					</div>
+								</div>
 
-				</div>
+							</div>
 
-				<div class="line"></div>
+							<div class="line"></div>
 
-				<!-- Contact
+							<!-- Contact
 				============================================= -->
-				<div id="section-contact" class="py-lg-5 page-section">
+							<div id="section-contact" class="py-lg-5 page-section">
 
-					<div class="container mw-md">
+								<div class="container mw-md">
 
-						<h2 class="text-center display-3 fw-semibold ls-2 mb-5 mb-lg-6"><i
-								class="bi-envelope-open color"></i> Contact</h2>
+									<h2 class="text-center display-3 fw-semibold ls-2 mb-5 mb-lg-6"><i
+											class="bi-envelope-open color"></i> Contact</h2>
 
-						<div class="row g-5">
+									<div class="row g-5">
 
-							<div class="col-md-6">
-								<div class="row gy-5">
-									<div class="col-12">
-										<h4 class="border-bottom border-color border-width-3 d-inline-block">My Office
-										</h4>
-										<address class="mb-4">
-											Palaiseau 91120, France<br>
-										</address>
-										<!-- <div class="d-flex mb-1"><strong class="col-3">Phone:</strong> (1) 8547 632521
+										<div class="col-md-6">
+											<div class="row gy-5">
+												<div class="col-12">
+													<h4
+														class="border-bottom border-color border-width-3 d-inline-block">
+														My Office
+													</h4>
+													<address class="mb-4">
+														Palaiseau 91120, France<br>
+													</address>
+													<!-- <div class="d-flex mb-1"><strong class="col-3">Phone:</strong> (1) 8547 632521
 										</div>
 										<div class="d-flex mb-1"><strong class="col-3">Fax:</strong> (1) 11 4752 1433
 										</div> -->
-										<div class="d-flex mb-1"><strong class="col-3">Email:</strong>
-											yassine.beniguemim@polytechnique.edu</div>
-									</div>
-									<div class="col-12">
-										<h4 class="border-bottom border-color border-width-3 d-inline-block">Follow Us
-										</h4>
-										<ul class="list-group list-group-flush social-lists">
-											<a href="#" class="list-group-item d-flex pt-0">Github <i
-													class="bi-arrow-up-right ms-auto"></i></a>
-											<a href="#" class="list-group-item d-flex">LinkedIn <i
-													class="bi-arrow-up-right ms-auto"></i></a>
-											<!-- <a href="#" class="list-group-item d-flex">Twitter <i
+													<div class="d-flex mb-1"><strong class="col-3">Email:</strong>
+														yassine.beniguemim@polytechnique.edu</div>
+												</div>
+												<div class="col-12">
+													<h4
+														class="border-bottom border-color border-width-3 d-inline-block">
+														Follow Us
+													</h4>
+													<ul class="list-group list-group-flush social-lists">
+														<a href="#" class="list-group-item d-flex pt-0">Github <i
+																class="bi-arrow-up-right ms-auto"></i></a>
+														<a href="#" class="list-group-item d-flex">LinkedIn <i
+																class="bi-arrow-up-right ms-auto"></i></a>
+														<!-- <a href="#" class="list-group-item d-flex">Twitter <i
 													class="bi-arrow-up-right ms-auto"></i></a> -->
-										</ul>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-6">
+											<div class="form-widget">
+
+												<div class="form-result"></div>
+
+												<form class="mb-0" id="template-contactform" name="template-contactform"
+													action="include/form.php" method="post">
+
+													<div class="form-process">
+														<div class="css3-spinner">
+															<div class="css3-spinner-scaler"></div>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col-12 form-group">
+															<label for="template-contactform-name">Name
+																<small>*</small></label>
+															<input type="text" id="template-contactform-name"
+																name="template-contactform-name" value=""
+																class="form-control bg-transparent required">
+														</div>
+
+														<div class="col-12 form-group">
+															<label for="template-contactform-email">Email
+																<small>*</small></label>
+															<input type="email" id="template-contactform-email"
+																name="template-contactform-email" value=""
+																class="required email form-control bg-transparent">
+														</div>
+
+														<div class="col-12 form-group">
+															<label for="template-contactform-subject">Subject
+																<small>*</small></label>
+															<input type="text" id="template-contactform-subject"
+																name="subject" value=""
+																class="required form-control bg-transparent">
+														</div>
+
+														<div class="col-12 form-group">
+															<label for="template-contactform-message">Message
+																<small>*</small></label>
+															<textarea class="required form-control bg-transparent"
+																id="template-contactform-message"
+																name="template-contactform-message" rows="6"
+																cols="30"></textarea>
+														</div>
+
+														<div class="col-12 form-group d-none">
+															<input type="text" id="template-contactform-botcheck"
+																name="template-contactform-botcheck" value=""
+																class="form-control bg-transparent">
+														</div>
+
+														<div class="col-12 form-group">
+															<button
+																class="button bg-color text-black rounded font-primary m-0"
+																type="submit" id="template-contactform-submit"
+																name="template-contactform-submit" value="submit">Send
+																Message</button>
+														</div>
+													</div>
+
+													<input type="hidden" name="prefix" value="template-contactform-">
+
+												</form>
+											</div>
+										</div>
+
 									</div>
+
 								</div>
-							</div>
 
-							<div class="col-md-6">
-								<div class="form-widget">
-
-									<div class="form-result"></div>
-
-									<form class="mb-0" id="template-contactform" name="template-contactform"
-										action="include/form.php" method="post">
-
-										<div class="form-process">
-											<div class="css3-spinner">
-												<div class="css3-spinner-scaler"></div>
-											</div>
-										</div>
-
-										<div class="row">
-											<div class="col-12 form-group">
-												<label for="template-contactform-name">Name <small>*</small></label>
-												<input type="text" id="template-contactform-name"
-													name="template-contactform-name" value=""
-													class="form-control bg-transparent required">
-											</div>
-
-											<div class="col-12 form-group">
-												<label for="template-contactform-email">Email <small>*</small></label>
-												<input type="email" id="template-contactform-email"
-													name="template-contactform-email" value=""
-													class="required email form-control bg-transparent">
-											</div>
-
-											<div class="col-12 form-group">
-												<label for="template-contactform-subject">Subject
-													<small>*</small></label>
-												<input type="text" id="template-contactform-subject" name="subject"
-													value="" class="required form-control bg-transparent">
-											</div>
-
-											<div class="col-12 form-group">
-												<label for="template-contactform-message">Message
-													<small>*</small></label>
-												<textarea class="required form-control bg-transparent"
-													id="template-contactform-message"
-													name="template-contactform-message" rows="6" cols="30"></textarea>
-											</div>
-
-											<div class="col-12 form-group d-none">
-												<input type="text" id="template-contactform-botcheck"
-													name="template-contactform-botcheck" value=""
-													class="form-control bg-transparent">
-											</div>
-
-											<div class="col-12 form-group">
-												<button class="button bg-color text-black rounded font-primary m-0"
-													type="submit" id="template-contactform-submit"
-													name="template-contactform-submit" value="submit">Send
-													Message</button>
-											</div>
-										</div>
-
-										<input type="hidden" name="prefix" value="template-contactform-">
-
-									</form>
-								</div>
 							</div>
 
 						</div>
-
-					</div>
-
-				</div>
-
-			</div>
 		</section><!-- #content end -->
 
 		<!-- Footer
